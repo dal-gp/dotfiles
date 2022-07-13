@@ -1,0 +1,5 @@
+[user]
+	name = Dal S Garbuja Pun
+	email = dal@garbuja.pun
+[core]
+	excludesfile = /Users/dal/.gitignore
