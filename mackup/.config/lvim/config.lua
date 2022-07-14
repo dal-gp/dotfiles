@@ -170,3 +170,8 @@ lvim.plugins = {
 --     require("nvim-treesitter.highlight").attach(0, "bash")
 --   end,
 -- })
+
+-- catppuccin
+require('catppuccin').setup({
+  transparent_background = true,
+})
