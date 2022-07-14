@@ -5,6 +5,7 @@ zoxide init fish | source
 
 fish_add_path /usr/local/bin
 fish_add_path $HOME/.config/bin
+fish_add_path /Users/dal/.nvm/versions/node/v16.16.0/bin
 
 # fish colors
 set -U fish_color_autosuggestion black
