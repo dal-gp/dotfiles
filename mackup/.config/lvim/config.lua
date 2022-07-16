@@ -175,3 +175,10 @@ lvim.plugins = {
 require('catppuccin').setup({
   transparent_background = true,
 })
+
+-- FileType
+vim.api.nvim_create_autocmd("BufEnter", {
+  pattern = { "*.c", "*.py", "*.cs" },
+  -- enable wrap mode for json files only
+  command = "setlocal shiftwidth=4 tabstop=4",
+})
