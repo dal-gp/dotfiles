@@ -8,6 +8,7 @@ fish_add_path $HOME/.config/bin
 fish_add_path /Users/dal/.nvm/versions/node/v16.16.0/bin
 fish_add_path $HOME/.local/bin
 fish_add_path $HOME/.cargo/bin
+fish_add_path $HOME/Library/Python/3.8/bin
 
 # fish colors
 set -U fish_color_autosuggestion black
