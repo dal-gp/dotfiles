@@ -5,4 +5,6 @@ mackup/Library/Preferences/com.apple.symbolichotkeys.plist
 mackup/Library/Preferences/name.guoc.SpaceLauncher.plist
 mackup/.config/fish/fish_variables
 .wget-hsts
+mackup/.config/karabiner/automatic_backups/
+.ssh
 
