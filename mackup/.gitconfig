@@ -3,3 +3,5 @@
 	email = dal@garbuja.pun
 [core]
 	excludesfile = /Users/dal/.gitignore
+[push]
+	default = simple
