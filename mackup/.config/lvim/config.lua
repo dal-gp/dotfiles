@@ -10,7 +10,7 @@ an executable
 
 -- general
 lvim.log.level = "warn"
-lvim.format_on_save = true
+lvim.format_on_save = true;
 -- lvim.colorscheme = "onedarker"
 lvim.colorscheme = "catppuccin"
 -- to disable icons and use a minimalist setup, uncomment the following
@@ -178,7 +178,7 @@ require('catppuccin').setup({
 
 -- FileType
 vim.api.nvim_create_autocmd("BufEnter", {
-  pattern = { "*.c", "*.py", "*.cs" },
+  pattern = { "*.py", "*.cs" },
   -- enable wrap mode for json files only
   command = "setlocal shiftwidth=4 tabstop=4",
 })
