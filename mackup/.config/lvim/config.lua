@@ -19,7 +19,9 @@ lvim.colorscheme = "catppuccin"
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 -- add your own keymapping
-lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
+-- lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
+-- retab 2 to 4
+-- lvim.keys.normal_mode["<C-s>"] = ":set ts=2 sts=2 noet | retab! | set ts=4 sts=4 et | retab!<cr>"
 -- unmap a default keymapping
 -- vim.keymap.del("n", "<C-Up>")
 -- override a default keymapping
@@ -179,6 +181,5 @@ require('catppuccin').setup({
 -- FileType
 vim.api.nvim_create_autocmd("BufEnter", {
   pattern = { "*.py", "*.cs" },
-  -- enable wrap mode for json files only
-  command = "setlocal shiftwidth=4 tabstop=4",
+  command = "setlocal softtabstop=4 shiftwidth=4 tabstop=4",
 })
