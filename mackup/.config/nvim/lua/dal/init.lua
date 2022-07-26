@@ -1,0 +1,5 @@
+print("Hi from lua/dal (init.lua)")
+require("dal.set")
+require("dal.packer")
+require("dal.remap")
+--require("dal.keymap")
