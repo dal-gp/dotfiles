@@ -1,4 +1,5 @@
 {
     "workbench.startupEditor": "none",
-    "workbench.iconTheme": "vscode-simpler-icons"
+    "workbench.iconTheme": "vscode-simpler-icons",
+    "workbench.tree.indent": 20,
 }
