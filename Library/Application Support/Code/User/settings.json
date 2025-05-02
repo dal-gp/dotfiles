@@ -1,7 +1,8 @@
 {
-    "workbench.startupEditor": "none",
-    "workbench.iconTheme": "vscode-simpler-icons",
-    "workbench.tree.indent": 20,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "vscode-simpler-icons",
+  "workbench.tree.indent": 20,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true
 }
