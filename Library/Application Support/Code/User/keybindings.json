@@ -31,5 +31,11 @@
         "key": "ctrl+shift+cmd+right",
         "command": "-editor.action.smartSelect.expand",
         "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && editorTextFocus"
+    },
+    // Hide toasts
+    {
+        "command": "notifications.hideToasts",
+        "key": "escape",
+        "when": "notificationToastsVisible"
     }
 ]
