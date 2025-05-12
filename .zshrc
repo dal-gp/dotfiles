@@ -103,3 +103,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias icd="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
+alias n="nvim"
