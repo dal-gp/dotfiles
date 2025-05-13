@@ -4,5 +4,6 @@
   "workbench.tree.indent": 20,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.linkedEditing": true
+  "editor.linkedEditing": true,
+  "window.commandCenter": false
 }
