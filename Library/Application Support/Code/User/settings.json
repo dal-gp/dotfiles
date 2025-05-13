@@ -8,5 +8,6 @@
   "window.commandCenter": false,
   "editor.minimap.autohide": true,
   "editor.scrollbar.vertical": "hidden",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "editor.minimap.scale": 2
 }
