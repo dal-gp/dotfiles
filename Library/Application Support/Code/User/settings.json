@@ -7,5 +7,6 @@
   "editor.linkedEditing": true,
   "window.commandCenter": false,
   "editor.minimap.autohide": true,
-  "editor.scrollbar.vertical": "hidden"
+  "editor.scrollbar.vertical": "hidden",
+  "workbench.sideBar.location": "right"
 }
