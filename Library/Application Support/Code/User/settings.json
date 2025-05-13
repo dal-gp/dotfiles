@@ -6,5 +6,6 @@
   "editor.formatOnSave": true,
   "editor.linkedEditing": true,
   "window.commandCenter": false,
-  "editor.minimap.autohide": true
+  "editor.minimap.autohide": true,
+  "editor.scrollbar.vertical": "hidden"
 }
