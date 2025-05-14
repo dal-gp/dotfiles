@@ -9,5 +9,6 @@
   "editor.minimap.autohide": true,
   "editor.scrollbar.vertical": "hidden",
   "workbench.sideBar.location": "right",
-  "editor.minimap.scale": 2
+  "editor.minimap.scale": 2,
+  "workbench.editor.wrapTabs": true
 }
