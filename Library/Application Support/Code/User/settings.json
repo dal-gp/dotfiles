@@ -11,5 +11,6 @@
   "workbench.sideBar.location": "right",
   "editor.minimap.scale": 2,
   "editor.fontFamily": "'FiraMono Nerd Font', 'OperatorMono Nerd Font', 'DankMono Nerd Font', 'MonoLisa', Menlo, Monaco, 'Courier New', monospace",
+  "workbench.colorTheme": "Vesper",
   "workbench.activityBar.location": "top"
 }
