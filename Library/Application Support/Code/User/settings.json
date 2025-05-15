@@ -10,5 +10,5 @@
   "editor.scrollbar.vertical": "hidden",
   "workbench.sideBar.location": "right",
   "editor.minimap.scale": 2,
-  "workbench.editor.wrapTabs": true
+  "editor.fontFamily": "'FiraMono Nerd Font', 'OperatorMono Nerd Font', 'DankMono Nerd Font', 'MonoLisa', Menlo, Monaco, 'Courier New', monospace",
 }
