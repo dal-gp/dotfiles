@@ -13,5 +13,6 @@
   "workbench.editor.wrapTabs": true,
   "editor.fontFamily": "'FiraMono Nerd Font', 'OperatorMono Nerd Font', 'DankMono Nerd Font', 'MonoLisa', Menlo, Monaco, 'Courier New', monospace",
   "workbench.colorTheme": "Vesper",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false
 }
