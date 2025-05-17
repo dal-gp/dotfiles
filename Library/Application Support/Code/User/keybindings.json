@@ -21,22 +21,24 @@
     "when": "terminal.active"
   },
   // Shrink Selection
-  {
-    "key": "backspace",
-    "command": "editor.action.smartSelect.shrink",
-    "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && editorTextFocus"
-  },
+  // {
+  //   "key": "backspace",
+  //   "command": "editor.action.smartSelect.shrink",
+  //   // "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && editorTextFocus"
+  //   "when": "(vim.mode == 'Normal') && editorTextFocus"
+  // },
   {
     "key": "ctrl+shift+cmd+left",
     "command": "-editor.action.smartSelect.shrink",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && editorTextFocus"
   },
   // Expand Selection
-  {
-    "key": "enter",
-    "command": "editor.action.smartSelect.expand",
-    "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && editorTextFocus"
-  },
+  // {
+  //   "key": "enter",
+  //   "command": "editor.action.smartSelect.expand",
+  //   // "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && editorTextFocus"
+  //   "when": "(vim.mode == 'Normal') && editorTextFocus"
+  // },
   {
     "key": "ctrl+shift+cmd+right",
     "command": "-editor.action.smartSelect.expand",
