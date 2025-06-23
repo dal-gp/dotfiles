@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,3 +105,6 @@ source $ZSH/oh-my-zsh.sh
 alias icd="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
 alias n="nvim"
 alias gc="git-cz c"
+alias ytv='() {yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" $1}'
+export PATH=~/.dotnet:~/.dotnet/tools:~/.dotnet/sdk/9.0.200:$PATH
+

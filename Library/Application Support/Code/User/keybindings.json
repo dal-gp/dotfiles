@@ -50,12 +50,36 @@
     "key": "escape",
     "when": "notificationToastsVisible"
   },
+  // {
+  //   "key": "shift shift",
+  //   "command": "workbench.action.showAllEditors"
+  // },
   {
-    "key": "shift shift",
+    "key": "ctrl ctrl",
     "command": "workbench.action.showAllEditors"
   },
   {
     "key": "alt+cmd+tab",
     "command": "-workbench.action.showAllEditors"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "shift+cmd+e",
+    "command": "-workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
   }
 ]
